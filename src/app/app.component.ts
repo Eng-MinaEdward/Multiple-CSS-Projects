@@ -7,13 +7,13 @@ import {ActivatedRoute, Router} from "@angular/router";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'abdoFlexTask2';
+  title = 'CSS Multiple Projects';
 
   constructor(private router: Router,
               private route: ActivatedRoute) {
   }
 
   ngOnInit() {
-    this.router.navigate(['first'], {relativeTo: this.route}).then();
+    this.router.navigate(['home'], {relativeTo: this.route}).then();
   }
 }

@@ -12,7 +12,6 @@
 }
 
 .wrapper {
-  /*background: linear-gradient(-10deg, #772953, #e95420);*/
   background: linear-gradient(-10deg, blueviolet, orangered);
   min-height: 100vh;
   font-size: 18px;
@@ -29,13 +28,12 @@
 
 }
 
-
 a {
   text-decoration: none;
 }
 
 
-.main {
+.container {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
@@ -43,7 +41,7 @@ a {
 }
 
 .content {
-  flex: 4;
+  flex: 3;
   text-align: justify;
 }
 

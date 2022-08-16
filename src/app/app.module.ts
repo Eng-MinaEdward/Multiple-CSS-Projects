@@ -5,8 +5,11 @@ import {AppComponent} from './app.component';
 import {FirstComponent} from './first/first.component';
 import {ThirdComponent} from './third/third.component';
 import {RouterModule, Routes} from '@angular/router';
+import {HomeComponent} from './home/home.component';
+import { GymComponent } from './gym/gym.component';
 
 const appRoutes: Routes = [
+  {path: 'home', component: HomeComponent},
   {path: 'first', component: FirstComponent},
   {path: 'third', component: ThirdComponent},
 ];
@@ -19,6 +22,8 @@ const appRoutes: Routes = [
       AppComponent,
       FirstComponent,
       ThirdComponent,
+      HomeComponent,
+      GymComponent,
     ],
   imports:
     [RouterModule.forRoot(appRoutes),
