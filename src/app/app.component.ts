@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.router.navigate(['home'], {relativeTo: this.route}).then();
+    // this.router.navigate(['home'], {relativeTo: this.route}).then();
+    this.router.navigate(['gym'], {relativeTo: this.route}).then();
   }
 }
